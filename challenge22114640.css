@@ -1,0 +1,83 @@
+body {
+    background: rgb(204, 171, 131);
+    overflow: hidden;
+}
+.header{
+    background: lightcyan;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.header_img {
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(106, 158, 206);
+}
+.flex-container div {
+    text-transform: uppercase;
+    margin: 13px;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+}
+.flex-container a {
+    text-decoration: none;
+    margin: 0 3px;
+    color: black;
+}
+.nav {
+    background: steelblue;
+    padding: px;
+    text-align: center;
+    font-size: 5px;
+    height: 3px;
+}
+
+#artikel {
+    color: black;
+    font-size: 15px;
+    background-color: lightblue;
+    float: left;
+    padding: 5px;  
+    flex: 1;
+    box-sizing: border-box;
+    margin: 0;
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        margin-bottom: 0; /* Menghilangkan margin bawah pada judul */
+    }
+    img {
+        margin-top: 0;
+        margin-bottom: -10px;
+    }
+}
+sidebar {
+    color: black;
+    font-size: 18px;
+    background-color: rgb(204, 171, 131);
+    float: left;
+    padding: 10px;  
+    flex: 1;
+    box-sizing: border-box;
+    margin: 0;
+}
+sidebar table {
+    background-color: lightblue;
+    width: 490px;
+}
+
+#footer {
+    background-color: yellowgreen;
+    display: flexbox;
+    padding: 0.1px;
+    text-align: center;
+    color: rgb(36, 61, 206);
+    clear: both;
+
+}
